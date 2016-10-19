@@ -1,0 +1,4 @@
+module Finch {
+	umbrella header "Finch.h"
+	export *
+}

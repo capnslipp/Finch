@@ -81,6 +81,8 @@
 		0DF32BA4141A37250059033C /* FIError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF32BA3141A37250059033C /* FIError.h */; };
 		0DFC9E56147FBC9800FC2066 /* FIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC9E55147FBC9800FC2066 /* FIError.m */; };
 		0DFC9E68147FDD6100FC2066 /* Lib-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0DFC9E67147FDD6000FC2066 /* Lib-Prefix.pch */; };
+		FA99992E1DB83D6D0053104D /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA99992C1DB83D100053104D /* module.modulemap */; };
+		FA9999581DB85E070053104D /* Finch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA9999571DB85DC20053104D /* Finch.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,20 @@
 			remoteInfo = "Test Runner";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA99992D1DB83D450053104D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(MODULE_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FA9999581DB85E070053104D /* Finch.h in CopyFiles */,
+				FA99992E1DB83D6D0053104D /* module.modulemap in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0D1BA656141A45B6004A5A9F /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +182,8 @@
 		0DF32BA3141A37250059033C /* FIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIError.h; path = Finch/FIError.h; sourceTree = "<group>"; };
 		0DFC9E55147FBC9800FC2066 /* FIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FIError.m; path = Finch/FIError.m; sourceTree = "<group>"; };
 		0DFC9E67147FDD6000FC2066 /* Lib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Lib-Prefix.pch"; path = "Finch/Lib-Prefix.pch"; sourceTree = "<group>"; };
+		FA99992C1DB83D100053104D /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		FA9999571DB85DC20053104D /* Finch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Finch.h; path = Finch/Finch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +305,8 @@
 				0D9CA6FF1695CE59007B522D /* FISoundEngine.m */,
 				0D1BA664141A45B6004A5A9F /* Tests-Prefix.pch */,
 				0DFC9E67147FDD6000FC2066 /* Lib-Prefix.pch */,
+				FA99992C1DB83D100053104D /* module.modulemap */,
+				FA9999571DB85DC20053104D /* Finch.h */,
 			);
 			name = "High-Level Interface";
 			sourceTree = "<group>";
@@ -400,6 +420,7 @@
 				0D2AA93A14174FA000F4071B /* Sources */,
 				0D2AA93B14174FA000F4071B /* Frameworks */,
 				0D2AA93C14174FA000F4071B /* Headers */,
+				FA99992D1DB83D450053104D /* CopyFiles */,
 			);
 			buildRules = (
 			);
