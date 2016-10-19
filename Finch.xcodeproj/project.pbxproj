@@ -682,6 +682,7 @@
 		0D2AA94C14174FA000F4071B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DEFINES_MODULE = YES;
 				DSTROOT = /tmp/Finch.dst;
@@ -700,6 +701,7 @@
 		0D2AA94D14174FA000F4071B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DEFINES_MODULE = YES;
 				DSTROOT = /tmp/Finch.dst;
