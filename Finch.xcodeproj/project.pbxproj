@@ -41,9 +41,9 @@
 		0D9CA6F116958028007B522D /* FISampleFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6EF16958028007B522D /* FISampleFormat.m */; };
 		0D9CA6F81695896E007B522D /* FISoundSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6F61695896E007B522D /* FISoundSource.h */; };
 		0D9CA6F91695896E007B522D /* FISoundSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6F71695896E007B522D /* FISoundSource.m */; };
-		0D9CA6FC16958D46007B522D /* FISound.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6FA16958D46007B522D /* FISound.h */; };
+		0D9CA6FC16958D46007B522D /* FISound.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6FA16958D46007B522D /* FISound.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D9CA6FD16958D46007B522D /* FISound.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6FB16958D46007B522D /* FISound.m */; };
-		0D9CA7001695CE59007B522D /* FISoundEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6FE1695CE59007B522D /* FISoundEngine.h */; };
+		0D9CA7001695CE59007B522D /* FISoundEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6FE1695CE59007B522D /* FISoundEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D9CA7011695CE59007B522D /* FISoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6FF1695CE59007B522D /* FISoundEngine.m */; };
 		0D9CA7041695DEE2007B522D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9CA7021695DEE2007B522D /* Default-568h@2x.png */; };
 		0D9CA7051695DEE2007B522D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9CA7031695DEE2007B522D /* Default@2x.png */; };
@@ -358,6 +358,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9CA6FC16958D46007B522D /* FISound.h in Headers */,
+				0D9CA7001695CE59007B522D /* FISoundEngine.h in Headers */,
 				0DF32BA4141A37250059033C /* FIError.h in Headers */,
 				0DFC9E68147FDD6100FC2066 /* Lib-Prefix.pch in Headers */,
 				0DAF0E891694223100612EED /* FISampleBuffer.h in Headers */,
@@ -366,8 +368,6 @@
 				0D9CA6E81695735A007B522D /* FISampleDecoder.h in Headers */,
 				0D9CA6F016958028007B522D /* FISampleFormat.h in Headers */,
 				0D9CA6F81695896E007B522D /* FISoundSource.h in Headers */,
-				0D9CA6FC16958D46007B522D /* FISound.h in Headers */,
-				0D9CA7001695CE59007B522D /* FISoundEngine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
